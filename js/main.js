@@ -19,7 +19,7 @@
         count -= 1;
         $('.chart').data('easyPieChart').disableAnimation();
         if (count < 0) {
-          return window.location.href = "http://staysorted.co";
+          return window.location.href = "http://staysorted.com";
         } else {
           $('#countdown').html(count);
           $('.chart').data('easyPieChart').update(0);
